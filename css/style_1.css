@@ -1,0 +1,230 @@
+.strict {
+    height: 100px;
+    width: 1600px;
+    background-color: #f6f9f9;
+    display: flex;
+}
+.strict img {
+    align-self: center;
+    margin-left: 10vw;
+}
+.header {
+    width: 1600px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: 100%;
+    background: url("../img/h_background.png");
+}
+
+.header h1 {
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 147px;
+    letter-spacing: 3px;
+    align-self: center;
+}
+.line {
+    width: 600px;
+    height: 2px;
+    background-color: #15a4fa;
+    align-self: center;
+}
+.header span {
+    color: #fff;
+}
+.text {
+    margin: 80px;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 1px;
+    align-self: center;
+}
+.button {
+    width: 176px;
+    height: 54px;
+    border-radius: 2px;
+    border: 1px solid #15a4fa;
+    background-color: transparent;
+    align-self: center;
+    margin-bottom: 150px;
+    color: white;
+}
+.button a {
+    text-decoration: none;
+    color: white;
+}
+.button :hover  {
+    background-color: #15a4fa;
+    padding: 15px 30px;
+    border-radius: 3px;
+
+
+}
+.header img {
+    margin-left: 50%;
+}
+.simple {
+    width: 1600px;
+    padding-top: 80px;
+    background-color: #f6f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.h2 {
+    color: #2d3950;
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.simple p {
+    color: #999999;
+}
+.designe {
+width: 1600px;
+display: flex;
+
+}
+.designe_points {
+    width: 260px;
+    height: 210px;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 65px;
+}
+.designe_points img {
+    background-color: #5fc3ff;
+    padding: 40px;
+}
+.designe_points h4{
+    padding: 30px;
+    color: #2d3950;
+    font-family: Lato, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.works {
+    width: 1600px;
+    background-color: #f6f9f9;
+}
+.showcase {
+   padding: 60px;
+   text-align: center;
+}
+.showcase h2 {
+    margin-bottom: 40px;
+}
+.text_little {
+    color: #999999;
+    font-family: Lato,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+}
+.list{
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.list img {
+    flex: 1;
+    width: 20vw;
+    margin: 10px;
+}
+.hidden {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transform: translate(0, -100%);
+    transition: 1s;
+    background-color: #008CBA;
+}
+.hidden:hover  {
+    opacity: 0.5;
+}
+.zoom,
+.link{
+    margin: 0 20px;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    background-color: inherit;
+}
+.zoom img,
+.link img {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+.last_background {
+    background-image: url("../img/last_bg.png");
+    width: 1600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+.last_bg {
+   margin-top: 15%;
+}
+.last_bg h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+.form ul li {
+    margin: 20px;
+
+}
+#mail, #name, #textarea {
+    width: 550px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: inherit;
+}
+#textarea {
+    height: 200px;
+}
+.submit {
+    display: inline;
+    padding-left: 150px;
+}
+.last_list {
+    display: flex;
+    float: right;
+}
+.footer {
+    padding: 30px 200px;
+}
+.link_decor {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: blue;
+
+}
+.last_list li {
+    margin-right: 20px;
+}
+.last_list li  :hover {
+    background-color: #15a4fa;
+
+}
+
